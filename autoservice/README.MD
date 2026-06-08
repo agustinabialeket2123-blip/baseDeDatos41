@@ -13,7 +13,7 @@ Planteamos una base de datos para un sistema de reserva de vehículos en linea. 
 ![modelo físico](modeloFisico.svg)
 
 ## Base de datos (SQL):
-```sql:/autoService.sql
+```sql
 drop database autoService;
 create database autoService;
 use autoService;
