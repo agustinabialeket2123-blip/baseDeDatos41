@@ -5,6 +5,7 @@ Planteamos una base de datos para un sistema de reserva de vehículos en linea. 
 - Amanda Ortega Franco
 - Morena Echeverría Secco
 - Matías Ojcius
+## Reconocimiento de Entidates:
 
 ## M.E.R. (Diagrama de flujo):
 ![modelo entidad relación](mer.jpg)
@@ -78,3 +79,4 @@ constraint idPago primary key (id),
 constraint fkReserva foreign key (idReserva) REFERENCES reservas(id)
 )engine=INNODB;
 ```
+![base de datos en phpMyAdmin](screenshotSQL.png)
