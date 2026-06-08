@@ -7,10 +7,10 @@ Planteamos una base de datos para un sistema de reserva de vehículos en linea. 
 - Matías Ojcius
 
 ## M.E.R. (Diagrama de flujo):
-![alt text](mer.png)
+![modelo entidad relación](mer.jpg)
 
 ## Modelo Físico:
-![alt text](modeloFisico.svg)
+![modelo físico](modeloFisico.svg)
 
 ## Base de datos (SQL):
 ```sql:/autoService.sql
