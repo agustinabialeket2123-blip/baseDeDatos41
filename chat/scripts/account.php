@@ -5,5 +5,5 @@ $email=$_POST["email"];
 $password=$_POST["pass"];
 $sql="INSERT INTO user (username,email,pass) VALUES ('$username','$email','$pass')";
 $conexion->query($sql);
-echo "User saved correctly";
+echo "Cuenta registrada correctamente";
 ?>
