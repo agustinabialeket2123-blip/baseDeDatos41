@@ -1,8 +1,13 @@
 <?php
-$server = "localhost";
-$user = "root";
-$pass = "";
-$db = "chat";
-$connect = new mysql(  $servidor, $usuario, $password, $basedatos);
-if($connect->connect_error){  die("CONNECTION ERROR!"); }
+$host = "localhost";
+$usuario = "root";
+$password = ""; // Si tenés clave en phpMyAdmin, ponela acá
+$base_datos = "chat"; // El nombre exacto de tu base de datos
+
+// Fijate que es mysqli (con 'i' al final)
+$conexion = new mysqli($host, $usuario, $password, $base_datos);
+
+if ($conexion->connect_error) {
+    die("Error de conexión: " . $conexion->connect_error);
+}
 ?>

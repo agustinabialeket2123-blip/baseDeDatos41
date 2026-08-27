@@ -1,8 +1,7 @@
 <?php
-include("config.php");
-$user=$_POST["username"];
+include $_SERVER['DOCUMENT_ROOT'] .  '/chat/scripts/config.php';
 $msg=$_POST["msg"];
-$sql="INSERT INTO user (username,email,pass) VALUES ('$username','$email','$pass')";
+$sql="INSERT INTO user (msg) VALUES ('$msg')";
 $conexion->query($sql);
-echo "Cuenta registrada correctamente";
+
 ?>

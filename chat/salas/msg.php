@@ -17,7 +17,7 @@ $sala = isset($_GET['room']) ? htmlspecialchars($_GET['room']) : 'general';
             <form action="chtbrk.php?room=<?php echo $sala; ?>" method="POST" style="position:absolute; bottom:0;">
             <input type="hidden" name="room" value="<?php echo $sala; ?>">
 
-            <input type="text" id="mensaje" name="mensaje" placeholder="Escribe aquí un mensaje:" required style="padding: 0.5vh; padding-inline: 1.5vw;  font-size: medium;">´
+            <input type="text" id="msg" name="msg" placeholder="Escribe aquí un mensaje:" required style="padding: 0.5vh; padding-inline: 1.5vw;  font-size: medium;">´
             <input class="button" type="submit" value="Enviar">
         </form>
     </div>
