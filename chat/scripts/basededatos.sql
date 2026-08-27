@@ -31,3 +31,16 @@ CONSTRAINT pk_salas PRIMARY KEY (id),
 CONSTRAINT fk_user FOREIGN KEY (iduser) REFERENCES user (id),
 CONSTRAINT fk_chat FOREIGN KEY (idchat) REFERENCES chat (id)
 )engine=innodb;
+
+create table mensajes (
+    id int not null auto_increment,
+    tiempo time,
+    contenido varchar (200) not null,
+    fk_salas,
+    fk_user,
+    CONSTRAINT pk_mensajes PRIMARY KEY (id),
+    CONSTRAINT fk_user FOREIGN KEY (iduser) REFERENCES user (id),
+    CONSTRAINT fk_salas FOREIGN KEY (idsalas) REFERENCES salas (id)
+)engine=innodb;
+
+

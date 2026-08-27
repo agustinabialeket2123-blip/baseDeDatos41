@@ -9,13 +9,13 @@
         <?php include $_SERVER['DOCUMENT_ROOT'] .  '/chat/base/navbar.php'; ?>
         <main>
             <h1>Selección de salas</h1>
-            <a href="chat.php?room=general">General</a>
-            <a href="chat.php?room=tecno">Tecnología</a>
-            <a href="chat.php?room=polit">Política</a>
-            <a href="chat.php?room=juegos">Videojuegos</a>
-            <a href="chat.php?room=depor">Deportes</a>
-            <a href="chat.php?room=cocina">Cocina</a>
-            <a href="chat.php?room=musica">Música</a>
+            <a href="msg.php?room=general">General</a>
+            <a href="msg.php?room=tecno">Tecnología</a>
+            <a href="msg.php?room=polit">Política</a>
+            <a href="msg.php?room=juegos">Videojuegos</a>
+            <a href="msg.php?room=depor">Deportes</a>
+            <a href="msg.php?room=cocina">Cocina</a>
+            <a href="msg.php?room=musica">Música</a>
         </main>
     </body>
     </html>
